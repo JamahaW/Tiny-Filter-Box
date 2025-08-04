@@ -1,8 +1,14 @@
 {
   "name": "Filter",
   "version": "1.0.0",
-  "description": "",
+  "description": "Lightweight signal filtering library with exponential and median filters",
   "keywords": [
+    "signal-processing",
+    "filter",
+    "exponential",
+    "median",
+    "smoothing",
+    "embedded"
   ],
   "repository": {
     "type": "git",
@@ -19,5 +25,6 @@
   "platforms": "*",
   "export": {
     "include": "src/filter"
-  }
+  },
+  "dependencies": []
 }
