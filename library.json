@@ -1,0 +1,23 @@
+{
+  "name": "Filter",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JamahaW/Filter-Lib.git"
+  },
+  "authors": [
+    {
+      "name": "JamahaW",
+      "email": "kiraflux@duck.com"
+    }
+  ],
+  "license": "MIT",
+  "frameworks": "*",
+  "platforms": "*",
+  "export": {
+    "include": "src/filter"
+  }
+}
