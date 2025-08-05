@@ -4,7 +4,7 @@
 #include <algorithm>
 
 
-namespace filter {
+namespace tfb {
     /// Медианный фильтр с буфером произвольного нечётного размера (2*N+1)
     template<typename T, size_t N> struct MedianFilter {
         static_assert(N % 2 == 1, "MedianFilter requires odd buffer size (2*K+1)");

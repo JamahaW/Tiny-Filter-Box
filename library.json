@@ -1,6 +1,6 @@
 {
-  "name": "Filter",
-  "version": "1.0.0",
+  "name": "Tiny-Filter-Box",
+  "version": "1.0.1",
   "description": "Lightweight signal filtering library with exponential and median filters",
   "keywords": [
     "signal-processing",
@@ -12,7 +12,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/JamahaW/Filter-Lib.git"
+    "url": "https://github.com/JamahaW/Tiny-Filter-Box.git"
   },
   "authors": [
     {

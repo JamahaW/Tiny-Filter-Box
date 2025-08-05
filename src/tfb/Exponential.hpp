@@ -1,6 +1,6 @@
 #pragma once
 
-namespace filter {
+namespace tfb {
 
     /// Экспоненциальный фильтр
     template<typename T> struct Exponential {
