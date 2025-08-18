@@ -1,6 +1,6 @@
 {
   "name": "Tiny-Filter-Box",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Lightweight signal filtering library with exponential and median filters",
   "keywords": [
     "signal-processing",
