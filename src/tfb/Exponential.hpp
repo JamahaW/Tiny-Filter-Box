@@ -2,17 +2,18 @@
 
 namespace tfb {
 
-    /// Экспоненциальный фильтр
-    template<typename T> struct Exponential {
-        float k;
-        T filtered;
+/// Экспоненциальный фильтр
+template<typename T> struct Exponential {
+    float k;
+    T filtered;
 
-        constexpr explicit Exponential(const float &k, T &&init_value = 0) :
-            k{k}, filtered{init_value} {}
+    constexpr explicit Exponential(const float &k, T &&init_value = T{}) :
+        k{k}, filtered{init_value} {}
 
-        const T &calc(T value) {
-            filtered += (value - filtered) * k;
-            return filtered;
-        }
-    };
+    const T &calc(const T &value) {
+        filtered += (value - filtered) * k;
+        return filtered;
+    }
+};
+
 }
