@@ -12,11 +12,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/JamahaW/Tiny-Filter-Box.git"
+    "url": "https://github.com/KiraFlux/Tiny-Filter-Box.git"
   },
   "authors": [
     {
-      "name": "JamahaW",
+      "name": "KiraFlux",
       "email": "kiraflux@duck.com"
     }
   ],
@@ -24,7 +24,7 @@
   "frameworks": "*",
   "platforms": "*",
   "export": {
-    "include": "src/filter"
+    "include": "src/tfb"
   },
   "dependencies": []
 }
